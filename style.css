@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(245, 242, 201);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.inputField{
+    width: 400px;
+    height: 100px;
+    font-size: 40px;
+    border: 3px solid yellow;
+    border-radius: 8px;
+    outline: none;
+}
+
+.image{
+    width: 300px;
+}
